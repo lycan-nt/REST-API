@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/5f3fd06b5ba4611868858cf7
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Felipe D. Santos",
+    "subscribeChannel": "Nextdev"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/5f3fd06b5ba4611868858cf7
+
+###
+
+PATCH http://localhost:3000/subscribers/5f3fd026f26abd2a7c0920de
+Content-Type: application/json
+
+{
+    "name": "Marcella D. Santos",
+    "subscribeChannel": "NextDev"
+}
